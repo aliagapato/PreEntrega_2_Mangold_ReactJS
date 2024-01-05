@@ -1,7 +1,7 @@
 import './ItemDetail.module.css'
 import ItemCount from '../ItemCount/ItemCount'
 
-const ItemDetail = ({ id, name, img, description, price, stock }) => {
+const ItemDetail = ({ name, img, description, price, stock }) => {
     return (
         <article className='CardItem'>
             <header className='Header'>
@@ -9,9 +9,7 @@ const ItemDetail = ({ id, name, img, description, price, stock }) => {
                     {name}
                 </h2>
             </header>
-            <picture>
-                {/* <img src={img} alt{name} className='ItemImg' /> */}
-            </picture>
+                <img src={img} alt={name} className='ItemImg' />
             <section>
                 <p className='Info'>
                     Descripción: {description}

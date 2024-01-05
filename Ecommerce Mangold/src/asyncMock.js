@@ -5,7 +5,7 @@ const products = [
             price: 25000,
             description: "Cedro",
             stock: 5,
-            img: 'null'
+            img: './assets/13_Detalle_1.jpg'
         },
         {
             id: '2',
@@ -13,7 +13,7 @@ const products = [
             price: 10000,
             description: "Cedro",
             stock: 5,
-            img: 'null'
+            img: './assets/1_Earl_Vikingo_1.jpg'
         },
         {
             id: '3',
@@ -21,7 +21,7 @@ const products = [
             price: 10000,
             description: "Cedro",
             stock: 5,
-            img: 'null'
+            img: './assets/1_Earl_Vikingo_2.jpg'
         },
         {
             id: '4',
@@ -29,7 +29,7 @@ const products = [
             price: 12000,
             description: "Cedro",
             stock: 10,
-            img: 'null'
+            img: './assets/2_Hechicero_1.jpg'
         },
         {
             id: '5',
@@ -37,7 +37,7 @@ const products = [
             price: 8000,
             description: "Cedro",
             stock: 5,
-            img: 'null'
+            img: './assets/3_Sabio_1.jpg'
         },
         {
             id: '6',
@@ -45,7 +45,7 @@ const products = [
             price: 10000,
             description: "Cedro",
             stock: 5,
-            img: 'null'
+            img: './assets/4_Guardia_1.jpg'
         },
         {
             id: '7',
@@ -53,7 +53,7 @@ const products = [
             price: 10000,
             description: "Fresno",
             stock: 5,
-            img: 'null'
+            img: './assets/5_Rey_1.jpg'
         },
         {
             id: '8',
@@ -61,7 +61,7 @@ const products = [
             price: 10000,
             description: "Fresno",
             stock: 5,
-            img: 'null'
+            img: './assets/6_Reina_1.jpg'
         },
         {
             id: '9',
@@ -69,7 +69,7 @@ const products = [
             price: 12000,
             description: "Cedro",
             stock: 5,
-            img: 'null'
+            img: './assets/7_Escudera_1.jpg'
         },
         {
             id: 10,
@@ -77,7 +77,7 @@ const products = [
             price: 18000,
             description: "Fresno",
             stock: 5,
-            img: 'null'
+            img: './assets/9_Caballero_1.jpg'
         },
         {
             id: '11',
@@ -85,7 +85,7 @@ const products = [
             price: 18000,
             description: "Fresno",
             stock: 5,
-            img: 'null'
+            img: './assets/9_Caballero_2.jpg'
         },
         {
             id: '12',
@@ -93,7 +93,7 @@ const products = [
             price: 12000,
             description: "Fresno",
             stock: 5,
-            img: 'null'
+            img: './assets/2_Hechicero_2.jpg'
         }
 ]
 

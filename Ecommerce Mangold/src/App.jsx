@@ -11,17 +11,10 @@ function App() {
 
   return (
     <>
-      <div>
-        <div className='intencional'>
-          <div className='headerDeNavbar'>
-        <NavBar />
-        </div>
-        <ItemListContainer greeting = {'¡Bienvenidos!'} />
-        <ItemCount initial={1} stock={10} onAdd={(quantity) => console.log('Cantidad agregada',quantity)}/>
-        <ItemDetailContainer />
-        </div>
-      </div>
-      
+      <NavBar />
+      <ItemListContainer greeting = {'¡Bienvenidos!'} />
+      <ItemCount initial={1} stock={10} onAdd={(quantity) => console.log('Cantidad agregada',quantity)}/>
+      {/* <ItemDetailContainer /> */}
     </>
   )
 }

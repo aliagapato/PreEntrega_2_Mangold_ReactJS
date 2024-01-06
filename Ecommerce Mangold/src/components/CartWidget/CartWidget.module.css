@@ -1,6 +1,6 @@
 .cart-widget-container {
-    display: flex;
-    align-items: center;
+    /* display: flex;
+    align-items: center; */
   }
   
   .cart-image {
@@ -9,7 +9,7 @@
   }
   
   .text-container {
-    margin-left: 10px;
+    /* margin-left: 10px; */
   }
   
   .text-container span {

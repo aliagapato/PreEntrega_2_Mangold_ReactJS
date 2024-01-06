@@ -1,21 +1,21 @@
 .navbar {
-    background-color: #1C1C1C;
+    /* background-color: #1C1C1C !important;
     padding: 10px;
-    width: 100%;
+    width: 100%; */
   }
   
   .brandContainer {
-    display: flex;
+    /* display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-right: 3rem;
+    margin-right: 3rem; */
   }
   
   .logo {
-    width: 160px;
+    /* width: 160px;
     height: 160px;
     margin-left: 8rem;
-    margin-top: 15px;
+    margin-top: 15px; */
   }
   
   .title {

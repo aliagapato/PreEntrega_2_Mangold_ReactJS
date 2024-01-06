@@ -4,10 +4,10 @@
 }
 
 #root {
-  margin: 0 auto;
+  /* margin: 0 auto;
   padding: 2rem;
   text-align: center;
-  display: flex;
+  display: flex; */
 }
 
 .headearDeNavBar {
@@ -16,9 +16,9 @@
 
 body {
   background-color: #696960; 
-  margin: 0; 
+  /* margin: 0; 
   padding: 0;
   height: 75%; 
   width: 100%;
-  display: grid;
+  display: grid; */
 }

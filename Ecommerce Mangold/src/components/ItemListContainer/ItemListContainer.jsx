@@ -1,4 +1,3 @@
-import React from 'react';
 import { useState, useEffect } from 'react';
 import { getProducts } from '../../asyncMock.js'
 import ItemList from '../ItemList/ItemList.jsx'; 
@@ -18,9 +17,13 @@ const ItemListContainer = ({ greeting }) => {
   }, [])
   
   return (
-    <div>
-      <h1 className={styles.mensaje}>{greeting}</h1>
-      <ItemList products={products} />
+    <div className="container mt-5">
+      <div className="row"> 
+        <div className='col-12 text-center mb-5'>
+          <h1 className={styles.mensaje}>{greeting}</h1>
+        </div>
+        <ItemList products={products} />
+      </div>
     </div>
   );
 };

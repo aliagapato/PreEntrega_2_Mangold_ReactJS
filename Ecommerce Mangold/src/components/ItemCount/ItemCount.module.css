@@ -3,16 +3,16 @@
     color: white; 
     font-size: 20px;
     font-family: 'Tilt Prism';
-    display: flex;
+    /* display: flex;
     flex-direction: row !important; 
-    align-items: center; 
+    align-items: center;  */
 }
 
 .Controls {
-    display: flex;
+    /* display: flex;
     flex-direction: row !important;
-    justify-content: space-between; 
-    width: 100%; 
+    justify-content: space-between;  */
+    /* width: 100%;  */
     margin-bottom: 10px; 
 }
 

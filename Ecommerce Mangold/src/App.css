@@ -1,13 +1,24 @@
+.intencional {
+  display: flex !important;
+  width: 100%;
+}
+
 #root {
-  max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  display: flex;
 }
 
+.headearDeNavBar {
+  height: 25%;
+}
 
 body {
   background-color: #696960; 
   margin: 0; 
-  padding: 0; 
+  padding: 0;
+  height: 75%; 
+  width: 100%;
+  display: grid;
 }
